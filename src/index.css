@@ -14,7 +14,9 @@
 }
 
 nav .active{
-  color: #149eca;
+  background: #149eca;
+  padding: 5px;
+  border-radius: 10px;
 }
 .nav-ui{
   display: flex; 
@@ -26,5 +28,3 @@ nav .active{
   font-size: 20px;
   margin-bottom: 40px;
 }
-/* .nav-ui li:hover{
-} */
