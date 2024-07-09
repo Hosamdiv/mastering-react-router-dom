@@ -1,0 +1,30 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+
+  color: #fff;
+  background-color: #242424;
+
+}
+
+nav .active{
+  color: #149eca;
+}
+.nav-ui{
+  display: flex; 
+  justify-content: space-between;
+
+}
+.nav-ui li{
+  padding: 10px;
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+/* .nav-ui li:hover{
+} */
